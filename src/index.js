@@ -17,7 +17,7 @@ export default function game(question, func) {
                 return console.log(`Congratulations, ${name}!`);
             }
         } else {
-            return console.log(`'${answer}' is wrong answer;(. Correct answer was '${aa.trueAnswer}' \n Let's try again, ${name}!`);
+            return console.log(`'${answer}' is wrong answer;(. Correct answer was '${resultF.trueAnswer}' \n Let's try again, ${name}!`);
         }
     }
 }

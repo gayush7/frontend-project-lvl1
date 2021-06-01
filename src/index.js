@@ -1,11 +1,9 @@
 import readlineSync from "readline-sync";
-import askName from "./cli.js";
-
 
 export default function game(question, func) {
     console.log("Welcome to th Brain Games!");
     const name = readlineSync.question('May I have your name? ');
-    askName(name);
+    console.log(`Hello! ${name}`);
     console.log(question);
     for (let i = 0; i < 3; i++) {
         let resultF = func();

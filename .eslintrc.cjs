@@ -20,9 +20,13 @@ module.exports = {
     "rules": {
         "no-console": 0,
         "import/extensions": 0,
-        "no-underscore-dangle": [2, { "allow": ["__filename", "__dirname"] }],
-        "eqeqeq": "warn",
-        "strict": "off",
-        "semi": "error"
+        "no-await-in-loop": 0,
+        "fp/no-loops": 0,
+        "fp/no-nil": 0,
+        "fp/no-unused-expression": 0,
+        "fp/no-let": 0,
+        "fp/no-throw": 0,
+        "fp/no-mutation": 0,
+        "fp/no-mutating-methods": 0
     }
 };
